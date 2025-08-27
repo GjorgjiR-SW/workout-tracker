@@ -1,0 +1,12 @@
+/* Minimal base styles so it looks decent without Tailwind setup */
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background: #fafafa;
+  color: #111;
+}
+input, select, button { font: inherit; }
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: 0.4rem; vertical-align: top; }
